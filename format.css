@@ -37,7 +37,7 @@ a{
 	width: 13%; height:595px;
 	margin-top: 5px;
 	background-color: #778CB3;
-	color:#FFFFFF; padding: 4px; 
+	color:#FFFFFF;
 	border:solid 3px blue;
 }
 #content{
@@ -61,10 +61,10 @@ a{
 #relativeSide{
 	position: relative;
 	left: 50px;
-	top: 50px;z
+	top: 50px;
 }
 #fixrad{
 	position: fixed;
-	left: 160px;
+	left: 180px;
 	top: 300px;
 }
