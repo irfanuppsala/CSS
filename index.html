@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Min första sida</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+	/* This will target all the <p> elements in the HTML above */
+	/*
+	.first p {
+	    color:green;
+	    background-color: silver;
+		font-size: 20px;
+	}
+	*/
+	
+	/* This will target all <p> elements except the one nested within the "second" class*/
+		.first > p {
+	    color:green;
+	    background-color: silver;
+		font-size: 20px;
+	}
+	
+	p, ul {
+		color:green;
+		font-size: 20px;
+	}
+
+	.oneTime{
+		color:red;
+		font-size: 2em;
+		font-style: italic;;
+	}
+</style>
+</head>
+	<body>
+
+			<p class="first">Vår text</p>
+		<p>Vår text</p>
+	<div>
+
+
+		<ul class="oneTime">
+			<li>Skor</li>
+			<li>Glas</li>
+		</ul>
+	</div>
+
+	</body>
+</html>
