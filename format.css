@@ -20,13 +20,14 @@ a{
 	color: green;
 }
 #container{
-	width: 80%;
+	width: 100%;
+	height: 100%;
 	border: solid 5px grey;
-	margin: 0px auto;
+	margin: 0px;
 }
 #header{
 	color: rgb(255,0,0);
-	width:100%; height: 100%;
+	width:100%;
 	background-color: #778CB3
 }
 #navigation a{
@@ -34,7 +35,8 @@ a{
 	margin: 3px;
 }
 #sidePanel{
-	width: 13%; height:595px;
+	width: 14%; 
+    height: 914px;
 	margin-top: 5px;
 	background-color: #778CB3;
 	color:#FFFFFF;
@@ -42,7 +44,7 @@ a{
 }
 #content{
 	width: 85%; float: right;
-	height:595px; margin-top: 5px;
+	height:914px; margin-top: 5px;
 	background-color: #A0AFCB;
 	border:solid 3px blue;
 }
@@ -51,9 +53,9 @@ a{
 	height:595px; margin-top: 5px;
 }
 #footer{
-	width: 98%;
+	
 	background-color: #F7CB33;
-	padding: 12px;
+	padding: 15px;
 	color: #000000; font-size: 90%;
 	text-align: center; clear: both;
 	border-top: 5px solid #FFFFFF;
@@ -65,6 +67,6 @@ a{
 }
 #fixrad{
 	position: fixed;
-	left: 180px;
+	left: 80px;
 	top: 300px;
 }
