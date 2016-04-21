@@ -1,5 +1,7 @@
+@import url("image.css");
+
 html { 
-  background: url(img/light.jpg) no-repeat center center fixed; 
+  background: url(../img/light.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,10 +9,6 @@ html {
 }
 body{
 	font-family: Calibri, Helvetica, Arial;
-}
-.logo{
-	margin: 5px;
-	border-radius: 10px;
 }
 h1{
 	color:rgb(0,0,255);
