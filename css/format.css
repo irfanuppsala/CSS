@@ -6,6 +6,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 0px;
 }
 body{
 	font-family: Calibri, Helvetica, Arial;
@@ -90,3 +91,5 @@ ul li a:hover{
 	left: 80px;
 	top: 300px;
 }
+
+
