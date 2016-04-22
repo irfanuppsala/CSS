@@ -46,7 +46,8 @@ li {
 
 /* Every link inside <li> but not outside of it*/
 li a {
-	padding: 28px; text-decoration: none;
+	padding: 48px; 
+	text-decoration: none;
 	font-weight: bolder;
 }
 #inner { /* För att centrera menyn*/ 
@@ -56,4 +57,24 @@ li a {
 body{
 	margin: 0;
 	padding: 0;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+}
+.blueBox{
+	background: #627da0;
+	position: fixed;
+	left: 150px;
+
+	/* For setting Blue box exactly in the middle of the page*/
+	/*position: absolute;
+	top: 50%;
+	margin-top: -50px;*/
+}
+.greenBox{
+	background: green;
+
+	/*margin: 0 auto;*/
 }
